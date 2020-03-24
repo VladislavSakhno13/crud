@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteRule ^getdata/?$ api/getdata.php
-RewriteRule ^getdata/([0-9]+)?$ getdata.php?id=$1
